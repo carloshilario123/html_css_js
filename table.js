@@ -9,7 +9,7 @@ window.onload = function (e) {
     listado.push({ comando: "git pull", descripcion: "Baja del servidor todos los cambios que hayan realizado a la rama donde se este" })
     
  
-
+/*relleno manualmente la tabla*/
     var tableBody = document.getElementById('tbodyCommands');
 
     tableBody.innerHTML = "<tr><td>Comando</td><td>Descripcion</td></tr>"
