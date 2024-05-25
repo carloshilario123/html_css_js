@@ -1,3 +1,65 @@
-<table>
-    hola
-</table>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="table.js"></script>
+</head>
+
+<body>
+    <table class="table table-striped">
+        <thead>
+            <th>Comando</th>
+            <th>Descripción</th>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>git add .</td>
+                <td>Alamacena lo que se va a subir</td>
+            </tr>
+            <tr>
+                <td>git commit -m "algun comentario"</td>
+                <td>Prepara el paquete y define el comentario de los cambios que se hara</td>
+            </tr>
+            <tr>
+                <td>git push origin main</td>
+                <td>sube al repositorio desdela pc a la rama main</td>
+            </tr>
+            <tr>
+                <td>git pull</td>
+                <td>Baja del servidor todos los cambios que hayan realizado a la rama donde se este </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table id="myCommands" class="table table-bordered">
+        <thead>
+            <th>Comando</th>
+            <th>Descripción</th>
+
+        </thead>
+        <tbody id="tbodyCommands">
+
+        </tbody>
+    </table>
+<br>
+    <table id="myCommandsConCiclo" class="table table-bordered">
+        <thead>
+
+            <th>Comando</th>
+            <th>Descripción</th>
+
+        </thead>
+        <tbody id="tbodyCommandsConCiclo">
+
+        </tbody>
+    </table>
+
+</body>
+
+</html>
