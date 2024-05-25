@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(48, 45, 45);
+    display: flex;
+}
+
+#menudiv{
+    background-color: rgb(10, 2, 2);
+    padding: 10px;
+}
+
+#divBar{
+    background-color: rgb(51, 48, 48);
+    margin-left: 5px;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    flex: 3 1 0%
+}
+
+.tabla, th, td{
+    color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    padding: 15px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: rgb(212, 5, 5);
+}
+
