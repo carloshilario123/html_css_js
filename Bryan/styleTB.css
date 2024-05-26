@@ -1,15 +1,16 @@
 body {
-    background-color: rgb(48, 45, 45);
+    background-color: rgb(54, 50, 50);
     display: flex;
 }
 
 #menudiv{
-    background-color: rgb(10, 2, 2);
+    background-color: rgb(10, 86, 123);
     padding: 10px;
+    height: 15px;
 }
 
 #divBar{
-    background-color: rgb(51, 48, 48);
+    background-color: rgb(255, 255, 255);
     margin-left: 5px;
     align-items: center;
     height: 30px;
@@ -18,7 +19,7 @@ body {
 }
 
 .tabla, th, td{
-    color: rgb(255, 255, 255);
+    color: rgb(234, 214, 214);
     border-collapse: collapse;
     border-width: 1px;
     border-style: solid;
@@ -35,5 +36,19 @@ table {
     unicode-bidi: isolate;
     border-spacing: 2px;
     border-color: rgb(212, 5, 5);
+}
+
+
+td:hover{
+background-color: rgb(30, 129, 215);
+cursor: pointer; 
+transition: transform 0.5s, background-color 0.5s;
+
+
+}
+th:hover{
+    background-color: rgb(19, 88, 217);
+    scale: 1.05;
+    transition: transform 0.5s, background-color 0.5s;
 }
 
