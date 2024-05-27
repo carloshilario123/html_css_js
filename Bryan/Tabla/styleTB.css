@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(54, 50, 50);
+    display: flex;
+}
+caption{
+    color: rgb(0, 0, 0);
+    background-color: White;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+
+#menudiv{
+    background-color: rgb(10, 86, 123);
+    padding: 10px;
+    height: 15px;
+}
+
+#divBar{
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    flex: 3 1 0%
+}
+
+.tabla, th, td{
+    color: rgb(234, 214, 214);
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    padding: 15px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: rgb(212, 5, 5);
+    
+}
+
+
+td:hover{
+background-color: rgb(30, 129, 215);
+cursor: pointer; 
+transition: transform 0.5s, background-color 0.5s;
+
+
+}
+th:hover{
+    background-color: rgba(26, 99, 235, 0.733);
+    scale: 1.05;
+    transition: transform 0.5s, background-color 0.5s;
+   
+}
+
+
+
