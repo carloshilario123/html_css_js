@@ -29,6 +29,20 @@ window.onload = function (e) {
     }
 
 
+    z=1;
+    n=5;
+    while (z <= 10) {
+       console.log(z+" * "+n+" = "+ (z*5));
+        z++;
+    }
+
+
+    console.log("ya no se cumple que z sea menor que 10");
+
+
+
+
+/*
     lista2 = [2, 3, 4, 5, 34, 1, 56]
 
     z = 0;
@@ -36,6 +50,6 @@ window.onload = function (e) {
         alert(lista2[z])
         z++;
     }
-
+*/
 
 }
